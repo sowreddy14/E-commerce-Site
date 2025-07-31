@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling with navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0a0a23;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+/* Navigation links */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+/* Hero section in the center */
+.hero {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+/* Button hover effect */
+.hero button:hover {
+  transform: scale(1.05);
+  background-color: #0056b3;
+}
+
+/* Responsive product cards layout */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Product card design */
+.product-card {
+  background: white;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #0a0a23;
+  color: white;
+}
